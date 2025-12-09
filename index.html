@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Marouane Ouchen, DMF/AMF/RB player at KACM. Portfolio and football career."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accueil - Marouane Ouchen – Football Player</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="nav">
+      <div class="nav-inner">
+        <select id="langSelect">
+          <option value="fr">Français</option>
+          <option value="ar">العربية</option>
+
+          <option value="en">English</option>
+        </select>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <ul class="nav-links">
+          <li><a href="index.html" id="nav_Accueil">Accueil</a></li>
+          <li><a href="about.html" id="nav_Àpropos">À propos de moi</a></li>
+          <li><a href="whatido.html" id="nav_Compétences">Compétences</a></li>
+          <li><a href="cases.html" id="nav_Études">Études de cas</a></li>
+          <li><a href="contact.html" id="nav_contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="panel home-panel">
+      <div class="overlay"></div>
+      <img
+        class="bg-img"
+        src="images/IMG-20251204-WA0027.jpg"
+        alt="football_player"
+        loading="lazy"
+      />
+      <div class="home-content">
+        <img
+          src="images/5886451489369164718_120.jpg"
+          class="player-photo reveal-slide"
+          alt="Player Photo"
+        />
+        <h1 class="heading text-name reveal-text" id="name">
+          Bounjour, Je suis Marouane Ouchen
+        </h1>
+        <p class="lead text-p reveal-fade arabic" id="pr-name">
+          Jeune joueur polyvalent évoluant en DMF, AMF et RB au KACM – Kawkab de
+          Marrakech, passionné de football et déterminé à progresser chaque
+          jour.
+        </p>
+        <button class="btn-star reveal-fade">
+          <a href="whatido.html" id="btn">Compétences </a>
+        </button>
+      </div>
+    </section>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
